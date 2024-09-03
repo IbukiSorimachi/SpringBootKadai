@@ -1,14 +1,23 @@
-package com.example.demo;			
-
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;			
-			
-@Controller			
-public class register {			
-			
-	@RequestMapping("/")		
-	public String start() {		
-		return "input.html";	
-	}		
-			
-}			
+//package com.example.demo;			
+//
+//import org.springframework.stereotype.Controller;
+//import org.springframework.web.bind.annotation.RequestMapping;
+//import org.springframework.web.servlet.ModelAndView;			
+//			
+//@Controller			
+//public class register {			
+//			
+//	@RequestMapping("/")		
+//	public String start() {		
+//		return "input.html";	
+//			
+//			
+//	@RequestMapping("/register")		
+//	public  ModelAndView register
+//		(@ModelAttribute RegisterBean rb, ModelAndView m) {
+//		m.addObject("rb", rb);
+//	    m.setViewName(register.html");"
+//	    return m;	
+//	}		
+//		
+//	}			
